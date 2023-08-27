@@ -6,7 +6,7 @@ func diagonalDiffernec(arr [][]int32) (abs int32) {
 
 	var a, b int32
 	var lastn = arr[len(arr)-1]
-	var last = arr[][arr]
+	// var last = arr[][arr]
 	for i, n := range arr {
 
 		for j, m := range n {
